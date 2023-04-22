@@ -1,2 +1,2 @@
 # Zeword
-Fully offline native android app for with exciting functionality. Try it
+Fully offline native android bible app built with kotlin and Room.  
