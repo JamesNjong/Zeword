@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="114.69141px" height="113.93298px" viewBox="0 0 114.69141 113.93298" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="logo" fill-opacity="1">
+    <path d="M0 0L114.691 0L114.691 113.933L0 113.933L0 0Z" id="logo" fill="none" fill-rule="evenodd" stroke="none" />
+    <path d="M0 56C0 25.0721 25.0721 0 56 0C86.9279 0 112 25.0721 112 56C112 86.9279 86.9279 112 56 112C25.0721 112 0 86.9279 0 56Z" id="Oval" fill="#ED254E" fill-rule="evenodd" stroke="none" />
+    <g id="vuesaxbrokenreceipt-add-2" fill-opacity="1" transform="matrix(0.9335804 0.35836795 -0.35836795 0.9335804 32.536377 0.24157715)">
+      <path d="M0 0L82.1551 31.5364L50.6187 113.691L-31.5364 82.1551L0 0Z" id="vuesaxbrokenreceipt-add-2" fill="none" fill-rule="evenodd" stroke="none" />
+      <g id="vuesaxbrokenreceipt-add">
+        <g id="receipt-add">
+          <path d="M80.6667 30.8733C80.6667 36.6667 77 40.3333 71.2067 40.3333L58.6667 40.3333L58.6667 14.7033C58.6667 10.6333 62.0033 7.33333 66.0733 7.33333C70.07 7.37 73.7367 8.98333 76.3767 11.6233C79.0167 14.3 80.6667 17.9667 80.6667 22L80.6667 30.8733Z" id="Vector" fill="none" stroke="#F7F7F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M40.9206 36.6667L43.0839 36.6667" id="Vector" fill="none" fill-rule="evenodd" stroke="#F7F7F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M22.9167 36.6667L31.7166 36.6667" id="Vector" fill="none" fill-rule="evenodd" stroke="#F7F7F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M33 46.75L33 26.5833" id="Vector" fill="none" fill-rule="evenodd" stroke="#F7F7F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M88 0L88 88L0 88L0 0L88 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+          <path d="M7.33333 40.3333L7.33333 77C7.33333 80.0433 10.78 81.7667 13.2 79.9333L19.47 75.24C20.9367 74.14 22.99 74.2867 24.31 75.6067L30.3966 81.73C31.8266 83.16 34.1734 83.16 35.6034 81.73L41.7633 75.57C43.0467 74.2867 45.1 74.14 46.53 75.24L52.8 79.9333C55.22 81.73 58.6667 80.0067 58.6667 77L58.6667 14.6667C58.6667 10.6333 61.9667 7.33333 66 7.33333L25.6667 7.33333L22 7.33333C11 7.33333 7.33333 13.8967 7.33333 22L7.33333 25.6667" id="Vector" fill="none" stroke="#F7F7F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
