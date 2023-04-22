@@ -1,0 +1,445 @@
+{
+	"bibleBooks":[
+		{
+        	"Book": "Genesis",
+        	"ChapterCount": 50,
+        	"Abrev":"GN",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Exodus",
+        	"ChapterCount": 40,
+        	"Abrev":"EX",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Leviticus",
+        	"ChapterCount": 27,
+        	"Abrev":"LV",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Numbers",
+        	"ChapterCount": 36,
+        	"Abrev":"NU",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Deuteronomy",
+        	"ChapterCount": 34,
+        	"Abrev":"DT",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Joshua",
+        	"ChapterCount": 24,
+        	"Abrev":"JOS",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Judges",
+        	"ChapterCount": 21,
+        	"Abrev":"JGS",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Ruth",
+        	"ChapterCount": 4,
+        	"Abrev":"RU",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "1 Samuel",
+        	"ChapterCount": 31,
+        	"Abrev":"1 SAM",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "2 Samuel",
+        	"ChapterCount": 24,
+        	"Abrev":"2 SAM",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "1 Kings",
+        	"ChapterCount": 22,
+        	"Abrev":"1 KGS",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "2 Kings",
+        	"ChapterCount": 25,
+        	"Abrev":"1 KGS",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "1 Chronicles",
+        	"ChapterCount": 29,
+        	"Abrev":"1 CHR",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "2 Chronicles",
+        	"ChapterCount": 36,
+        	"Abrev":"2 CHR",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Ezra",
+        	"ChapterCount": 10,
+        	"Abrev":"EZR",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Nehemiah",
+        	"ChapterCount": 13,
+        	"Abrev":"NE",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Tobit",
+        	"ChapterCount": 14,
+        	"Abrev":"TB",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Judith",
+        	"ChapterCount": 16,
+        	"Abrev":"JDT",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Esther",
+        	"ChapterCount": 15,
+        	"Abrev":"ES",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Job",
+        	"ChapterCount": 42,
+        	"Abrev":"JB",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Psalms",
+        	"ChapterCount": 150,
+        	"Abrev":"PS",
+        	"Testament":"Old"
+    	}, 
+    	{
+        	"Book": "Proverbs",
+        	"ChapterCount": 31,
+        	"Abrev":"PRV",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Ecclesiates",
+        	"ChapterCount": 12,
+        	"Abrev":"EC",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Song of Songs",
+        	"ChapterCount": 8,
+        	"Abrev":"SO",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Wisdom",
+        	"ChapterCount": 19,
+        	"Abrev":"WS",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Sirach",
+        	"ChapterCount": 51,
+        	"Abrev":"SR",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Isaiah",
+        	"ChapterCount": 66,
+        	"Abrev":"IS",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Jeremiah",
+        	"ChapterCount": 52,
+        	"Abrev":"JER",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Lamentations",
+        	"ChapterCount": 5,
+        	"Abrev":"LAM",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Baruch",
+        	"ChapterCount": 6,
+        	"Abrev":"BA",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Ezekiel",
+        	"ChapterCount": 48,
+        	"Abrev":"EZ",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Daniel",
+        	"ChapterCount": 14,
+        	"Abrev":"DN",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Hosea",
+        	"ChapterCount": 14,
+        	"Abrev":"HOS",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Joel",
+        	"ChapterCount": 3,
+        	"Abrev":"JL",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Amos",
+        	"ChapterCount": 9,
+        	"Abrev":"AM",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Obadiah",
+        	"ChapterCount": 1,
+        	"Abrev":"OB",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Jonah",
+        	"ChapterCount": 4,
+        	"Abrev":"JON",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Micah",
+        	"ChapterCount": 7,
+        	"Abrev":"MI",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Nahum",
+        	"ChapterCount": 3,
+        	"Abrev":"NA",
+        	"Testament":"Old"
+    	},
+
+		{
+        	"Book": "Habakkuk",
+        	"ChapterCount": 3,
+        	"Abrev":"HB",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Zephaniah",
+        	"ChapterCount": 3,
+        	"Abrev":"ZEP",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Haggai",
+        	"ChapterCount": 2,
+        	"Abrev":"HG",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Zachariah",
+        	"ChapterCount": 14,
+        	"Abrev":"ZAC",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "Malachi",
+        	"ChapterCount": 4,
+        	"Abrev":"MAL",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "1 Maccabees",
+        	"ChapterCount": 16,
+        	"Abrev":"1 MAC",
+        	"Testament":"Old"
+    	},
+    	{
+        	"Book": "2 Maccabees",
+        	"ChapterCount": 35,
+        	"Abrev":"2 MAC",
+        	"Testament":"Old"
+    	},
+
+    	{
+        	"Book": "Matthew",
+        	"ChapterCount": 28,
+        	"Abrev":"MT",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Mark",
+        	"ChapterCount": 16,
+        	"Abrev":"MK",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Luke",
+        	"ChapterCount": 24,
+        	"Abrev":"LK",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "John",
+        	"ChapterCount": 21,
+        	"Abrev":"JN",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Acts",
+        	"ChapterCount": 28,
+        	"Abrev":"ACTS",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Romans",
+        	"ChapterCount": 16,
+        	"Abrev":"ROM",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "1 Corinthians",
+        	"ChapterCount": 16,
+        	"Abrev":"1 COR",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "2 Corinthians",
+        	"ChapterCount": 13,
+        	"Abrev":"2 COR",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Galatians",
+        	"ChapterCount": 6,
+        	"Abrev":"GAL",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Ephesians",
+        	"ChapterCount": 6,
+        	"Abrev":"EPH",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Philippians",
+        	"ChapterCount": 4,
+        	"Abrev":"PHIL",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Colossians",
+        	"ChapterCount": 4,
+        	"Abrev":"COL",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "1 Thessalonians",
+        	"ChapterCount": 5,
+        	"Abrev":"1 THES",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "2 Thessalonians",
+        	"ChapterCount": 3,
+        	"Abrev":"2 THES",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "1 Timothy",
+        	"ChapterCount": 6,
+        	"Abrev":"1 TM",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "1 Timothy",
+        	"ChapterCount": 4,
+        	"Abrev":"2 TM",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Titus",
+        	"ChapterCount": 3,
+        	"Abrev":"TI",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Philemon",
+        	"ChapterCount": 1,
+        	"Abrev":"PHM",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Hebrews",
+        	"ChapterCount": 13,
+        	"Abrev":"HB",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "James",
+        	"ChapterCount": 5,
+        	"Abrev":"JAS",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "1 Peter",
+        	"ChapterCount": 5,
+        	"Abrev":"1 PT",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "2 Peter",
+        	"ChapterCount": 3,
+        	"Abrev":"2 PT",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "1 John",
+        	"ChapterCount": 5,
+        	"Abrev":"1 JN",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "2 John",
+        	"ChapterCount": 1,
+        	"Abrev":"2 JN",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "3 John",
+        	"ChapterCount": 1,
+        	"Abrev":"3 JN",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Jude",
+        	"ChapterCount": 1,
+        	"Abrev":"JU",
+        	"Testament":"New"
+    	},
+    	{
+        	"Book": "Revelations",
+        	"ChapterCount": 22,
+        	"Abrev":"REV",
+        	"Testament":"New"
+    	}
+
+	]
+}
