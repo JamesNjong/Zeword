@@ -32,6 +32,8 @@
         <item name="colorPrimaryVariant">@color/off_white1</item>
         <item name="colorOnPrimary">@color/primary</item>
 
+        <item name="colorAccent">@color/primary</item>
+
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:statusBarColor">@color/white</item>

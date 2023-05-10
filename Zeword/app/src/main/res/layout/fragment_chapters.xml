@@ -21,8 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_margin="@dimen/fab_margin"
-        app:cardCornerRadius="8dp"
-        app:cardBackgroundColor="@color/off_white1">
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/off_white1"
+        app:contentPadding="16dp">
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
@@ -100,6 +101,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="8dp"
+                        android:layout_marginTop="@dimen/fab_margin"
                         android:background="@android:color/transparent"
                         android:src="@drawable/luna_notif"/>
 
@@ -121,6 +123,7 @@
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/fab_margin"
                         android:padding="8dp"
                         android:background="@android:color/transparent"
                         android:src="@drawable/luna_underline"/>
@@ -143,6 +146,7 @@
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/fab_margin"
                         android:padding="8dp"
                         android:background="@android:color/transparent"
                         android:src="@drawable/luna_share"/>
@@ -165,6 +169,7 @@
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/fab_margin"
                         android:padding="8dp"
                         android:background="@android:color/transparent"
                         android:src="@drawable/luna_copy"/>
@@ -187,6 +192,7 @@
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/fab_margin"
                         android:padding="8dp"
                         android:background="@android:color/transparent"
                         android:src="@drawable/luna_notes"/>

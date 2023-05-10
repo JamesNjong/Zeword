@@ -44,7 +44,7 @@ class Reader : AppCompatActivity() {
             }
 
             override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {
-                chapt.text = "${bookx.book} ${position+1}"
+                chapt.text = "Chapter ${position+1}"
             }
             override fun onPageSelected(position: Int) {
 
