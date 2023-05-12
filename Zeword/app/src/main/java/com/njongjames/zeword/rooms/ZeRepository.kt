@@ -18,20 +18,20 @@ class ZeRepository (private val zedao : ZeDao){
 
     // on below line we are creating an insert method
     // for adding the note to our database.
-    suspend fun<T> insert(thing: T) {
-        zedao.insert(thing)
+    suspend fun insertNote(thing: ZenoteTable) {
+        zedao.insertNote(thing)
     }
 
     // on below line we are creating a delete method
     // for deleting our content in the database.
-    suspend fun<T> delete(thing: T){
-        zedao.delete(thing)
+    suspend fun deleteNote(thing: ZenoteTable){
+        zedao.deleteNote(thing)
     }
 
     // on below line we are creating a update method for
     // updating our content in the database.
-    suspend fun<T> update(thing: T){
-        zedao.update(thing)
+    suspend fun updateNote(thing: ZenoteTable){
+        zedao.updateNote(thing)
     }
 
 

@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.njongjames.zeword.Models.ClickedVerse
+import com.njongjames.zeword.R
 import com.njongjames.zeword.adapters.ChapterVerseitemRecyclerViewAdapter
 import com.njongjames.zeword.databinding.FragmentChaptersBinding
 import com.njongjames.zeword.di.PrimarilyViewModel
@@ -49,6 +50,19 @@ class Chapters : Fragment() {
     lateinit var readerBtnProcess:ImageButton
     lateinit var actionCard:View
 
+
+    // highlighters
+    lateinit var zehi_2 :View
+    lateinit var zehi_3 :View
+    lateinit var zehi_4 :View
+    lateinit var zehi_5 :View
+
+    // action buttons
+    lateinit var action_underline :View
+    lateinit var action_send :View
+    lateinit var action_copy :View
+    lateinit var action_notes :View
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         chapterKey = arguments?.getString(ARG_CHAPTER_KEY) !!
@@ -77,14 +91,7 @@ class Chapters : Fragment() {
 
         SelectorCard  = binding.selectorCard
         readerbtnclear.setOnClickListener{
-            SelectorCard.isVisible = false
-            actionCard.isVisible = false
-            verseSelectables = false
-            btnDelete.isVisible = false
-            readerBtnProcess.isVisible = true
-            binding.readerRefsText.text =""
-            pageViewModel.setIndex(chapterKey, verseSelectables)
-
+            resetView()
         }
 
         readerBtnProcess.apply {
@@ -162,4 +169,45 @@ class Chapters : Fragment() {
         versesPicked.clear()
     }
 
+    fun takeAction(view: View) {
+        when(view.id){
+            R.id.action_underline-> underlineText();
+            R.id.action_share -> shareText();
+            R.id.action_copy -> copyText();
+            else -> takeNotes();
+        }
+        resetView()
+    }
+
+    fun copyText(){
+
+    }
+    fun shareText(){
+
+    }
+    fun underlineText(){}
+
+    fun takeNotes(){}
+    fun hightlightText(view: View) {
+        var actionType:String
+        when(view.id){
+            //TODO:  this inline strings are not safe, change it
+            R.id.zehi_2 ->  actionType = "Highlight_2" ;
+            R.id.zehi_3 -> actionType ="Highlight_3" ;
+            R.id.zehi_4 -> actionType = "Highlight_4"
+            else ->actionType = "Highlight_5"
+        }
+        resetView()
+    }
+
+
+    fun resetView(){
+        SelectorCard.isVisible = false
+        actionCard.isVisible = false
+        verseSelectables = false
+        btnDelete.isVisible = false
+        readerBtnProcess.isVisible = true
+        binding.readerRefsText.text =""
+        pageViewModel.setIndex(chapterKey, verseSelectables)
+    }
 }

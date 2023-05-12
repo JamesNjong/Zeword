@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.njongjames.zeword.home.ui.home.HomeFragment"
+        android:label="@string/title_books"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_dashboard"
+            app:destination="@id/navigation_notes" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_notifications"
+            app:destination="@id/navigation_highlights" />
+        <action
+            android:id="@+id/action_navigation_home_to_settingsFragment"
+            app:destination="@id/navigation_settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notes"
+        android:name="com.njongjames.zeword.home.ui.notes.NotesFragment"
+        android:label="@string/title_notes"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_settingsFragment"
+            app:destination="@id/navigation_settings" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_notifications"
+            app:destination="@id/navigation_highlights" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_highlights"
+        android:name="com.njongjames.zeword.home.ui.highlights.HighlightsFragment"
+        android:label="@string/title_highlights"
+        tools:layout="@layout/fragment_highlights" >
+        <action
+            android:id="@+id/action_navigation_notifications_to_settingsFragment"
+            app:destination="@id/navigation_settings" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_dashboard"
+            app:destination="@id/navigation_notes" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.njongjames.zeword.home.ui.settings.SettingsFragment"
+        android:label="title_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_navigation_notifications"
+            app:destination="@id/navigation_highlights" />
+        <action
+            android:id="@+id/action_settingsFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_settingsFragment_to_navigation_dashboard"
+            app:destination="@id/navigation_notes" />
+    </fragment>
+</navigation>

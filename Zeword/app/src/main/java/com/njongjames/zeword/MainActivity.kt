@@ -76,6 +76,9 @@ class MainActivity : AppCompatActivity() {
                         allBooks.setTextColor(getColor(R.color.off_white1))
                         oldBooks.setTextColor(getColor(R.color.text_secondary))
                         newBooks.setTextColor(getColor(R.color.text_secondary))
+
+                        oldBooks.text = "OT"
+                        newBooks.text = "NT"
                     }
                     1->{
                         oldBooks.background =  getDrawable(R.drawable.selected_tab_indicator)
@@ -84,6 +87,9 @@ class MainActivity : AppCompatActivity() {
                         oldBooks.setTextColor(getColor(R.color.off_white1))
                         allBooks.setTextColor(getColor(R.color.text_secondary))
                         newBooks.setTextColor(getColor(R.color.text_secondary))
+
+                        oldBooks.text = "Old Testament"
+                        newBooks.text = "NT"
                     }
                     else->{
                         newBooks.background =  getDrawable(R.drawable.selected_tab_indicator)
@@ -92,6 +98,8 @@ class MainActivity : AppCompatActivity() {
                         newBooks.setTextColor(getColor(R.color.off_white1))
                         oldBooks.setTextColor(getColor(R.color.text_secondary))
                         allBooks.setTextColor(getColor(R.color.text_secondary))
+                        oldBooks.text = "OT"
+                        newBooks.text = "New Testament"
                     }
                 }
             }

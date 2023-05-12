@@ -1,5 +1,6 @@
 package com.njongjames.zeword.ui
 
+import android.app.Application
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,22 +9,32 @@ import androidx.lifecycle.map
 import com.njongjames.zeword.Models.LoadableVerse
 import com.njongjames.zeword.Models.versStatus
 import com.njongjames.zeword.di.PrimarilyViewModel
+import com.njongjames.zeword.rooms.ZeRepository
+import com.njongjames.zeword.rooms.Zedatabase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class PageViewModel @Inject constructor(): ViewModel() {
+class PageViewModel @Inject constructor(application: Application): ViewModel() {
 
     @Inject
     lateinit var pvm: PrimarilyViewModel
-
-    private val _chapters = MutableLiveData<List<String>>()
 
     private val loadables = MutableLiveData<LoadableVerse>()
 
     val  chapters: LiveData<LoadableVerse> = loadables
 
     var selects= false
+
+
+    val repository : ZeRepository
+
+    // on below line we are initializing
+    // our dao, repository and all notes
+    init {
+        val dao = Zedatabase.getDatabase(application).getZeDao()
+        repository = ZeRepository(dao)
+    }
 
 
     fun setIndex(chapterKey: String, select:Boolean) {
@@ -37,6 +48,8 @@ class PageViewModel @Inject constructor(): ViewModel() {
 
         loadables.value = ldv
     }
+
+
 
     fun makeLoadables(chapterKey: String, select:Boolean, position:Int){
         selects = select
@@ -52,6 +65,8 @@ class PageViewModel @Inject constructor(): ViewModel() {
 
         loadables.value = ldv
     }
+
+
 
     private fun verseChecks(count:Int):ArrayList<versStatus>{
         var checks:ArrayList<versStatus> = ArrayList()
@@ -69,6 +84,8 @@ class PageViewModel @Inject constructor(): ViewModel() {
 
 
     private var refs:ArrayList<String> = ArrayList()
+
+
     fun makeReference(book:String,chapter:Int,pickedVerses:ArrayList<Int>){
         var _pickedVerses =pickedVerses.sorted()
         refs.clear()
@@ -107,6 +124,7 @@ class PageViewModel @Inject constructor(): ViewModel() {
         referenceText = _referenceText
     }
 
+
     fun adRefString(start:Int,stop:Int){
 
         if (start!=stop){
@@ -114,6 +132,7 @@ class PageViewModel @Inject constructor(): ViewModel() {
         }else{
             refs.add("${start}")
         }
+
     }
 
 

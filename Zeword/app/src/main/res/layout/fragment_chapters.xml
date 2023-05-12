@@ -89,7 +89,8 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:visibility="gone">
                     <androidx.cardview.widget.CardView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -118,7 +119,9 @@
                         android:layout_height="40dp"
                         android:layout_margin="@dimen/fab_margin"
                         app:cardCornerRadius="20dp"
-                        app:cardBackgroundColor="@color/hilight_2"/>
+                        app:cardBackgroundColor="@color/hilight_2"
+                        android:id="@+id/zehi_2"
+                        android:onClick="hightlightText"/>
 
                     <ImageButton
                         android:layout_width="wrap_content"
@@ -126,7 +129,9 @@
                         android:layout_marginTop="@dimen/fab_margin"
                         android:padding="8dp"
                         android:background="@android:color/transparent"
-                        android:src="@drawable/luna_underline"/>
+                        android:src="@drawable/luna_underline"
+                        android:id="@+id/action_underline"
+                        android:onClick="takeAction"/>
 
                 </LinearLayout>
 
@@ -141,7 +146,9 @@
                         android:layout_height="40dp"
                         android:layout_margin="@dimen/fab_margin"
                         app:cardCornerRadius="20dp"
-                        app:cardBackgroundColor="@color/hilight_3"/>
+                        app:cardBackgroundColor="@color/hilight_3"
+                        android:id="@+id/zehi_3"
+                        android:onClick="hightlightText"/>
 
                     <ImageButton
                         android:layout_width="wrap_content"
@@ -149,7 +156,9 @@
                         android:layout_marginTop="@dimen/fab_margin"
                         android:padding="8dp"
                         android:background="@android:color/transparent"
-                        android:src="@drawable/luna_share"/>
+                        android:src="@drawable/luna_share"
+                        android:id="@+id/action_share"
+                        android:onClick="takeAction"/>
 
                 </LinearLayout>
 
@@ -164,7 +173,9 @@
                         android:layout_height="40dp"
                         android:layout_margin="@dimen/fab_margin"
                         app:cardCornerRadius="20dp"
-                        app:cardBackgroundColor="@color/hilight_4"/>
+                        app:cardBackgroundColor="@color/hilight_4"
+                        android:id="@+id/zehi_4"
+                        android:onClick="hightlightText"/>
 
                     <ImageButton
                         android:layout_width="wrap_content"
@@ -172,7 +183,9 @@
                         android:layout_marginTop="@dimen/fab_margin"
                         android:padding="8dp"
                         android:background="@android:color/transparent"
-                        android:src="@drawable/luna_copy"/>
+                        android:src="@drawable/luna_copy"
+                        android:id="@+id/action_copy"
+                        android:onClick="takeAction"/>
 
                 </LinearLayout>
 
@@ -187,7 +200,9 @@
                         android:layout_height="40dp"
                         android:layout_margin="@dimen/fab_margin"
                         app:cardCornerRadius="20dp"
-                        app:cardBackgroundColor="@color/hilight_5"/>
+                        app:cardBackgroundColor="@color/hilight_5"
+                        android:id="@+id/zehi_5"
+                        android:onClick="hightlightText"/>
 
                     <ImageButton
                         android:layout_width="wrap_content"
@@ -195,7 +210,9 @@
                         android:layout_marginTop="@dimen/fab_margin"
                         android:padding="8dp"
                         android:background="@android:color/transparent"
-                        android:src="@drawable/luna_notes"/>
+                        android:src="@drawable/luna_notes"
+                        android:id="@+id/action_notes"
+                        android:onClick="takeAction"/>
 
                 </LinearLayout>
 
@@ -203,6 +220,8 @@
             </LinearLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+
     </androidx.cardview.widget.CardView>
 
 </FrameLayout>

@@ -1,6 +1,7 @@
 package com.njongjames.zeword.rooms
 
 import androidx.lifecycle.LiveData
+import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
@@ -8,20 +9,21 @@ import androidx.room.Query
 import androidx.room.Update
 import com.njongjames.zeword.rooms.tables.ZenoteTable
 
+@Dao
 interface ZeDao {
     // below is a generic insert method for
     // adding a new entry to our database.
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun<T> insert(thing : T)
+    suspend fun  insertNote(thing : ZenoteTable)
 
     // below is a generic delete method
     // for deleting anything.
     @Delete
-    suspend fun<T> delete(thing: T)
+    suspend fun deleteNote(thing : ZenoteTable)
 
     // below is a generic method is use to update the anything.
     @Update
-    suspend fun<T> update(thing: T)
+    suspend fun updateNote(thing: ZenoteTable)
 
 
     // below is the method to read all the notes

@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Zeword</string>
     <string name="title_activity_reader">Reader</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_books">Books</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_highlights">Highlights</string>
+    <string name="title_settings">Settings</string>
 </resources>

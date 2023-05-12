@@ -14,19 +14,25 @@
         android:theme="@style/Theme.App.Starting"
         tools:targetApi="31">
         <activity
-            android:name=".Reader"
-            android:exported="false"
-            android:label="@string/title_activity_reader"
-            android:theme="@style/Theme.Zeword" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".home.HomeActivity"
             android:exported="true"
+            android:label="@string/app_name"
             android:theme="@style/Theme.Zeword">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Reader"
+            android:exported="false"
+            android:label="@string/title_activity_reader"
+            android:theme="@style/Theme.Zeword" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Zeword">
         </activity>
     </application>
 

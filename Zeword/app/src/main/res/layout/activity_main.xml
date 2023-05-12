@@ -63,8 +63,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_gravity="end"
                 android:id="@+id/expanded_menu"
-                android:visibility="gone">
+                android:visibility="gone"
+                >
 
                 <ImageButton
                     android:layout_width="wrap_content"
@@ -78,6 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_favorites"
+                    android:visibility="gone"
                     android:padding="16dp"
                     android:background="@android:color/transparent"/>
 
@@ -86,6 +90,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_notifications"
+                    android:visibility="gone"
                     android:padding="16dp"
                     android:background="@android:color/transparent"/>
 
@@ -107,7 +112,8 @@
                 <androidx.legacy.widget.Space
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
 
                 <ImageButton
                     android:id="@+id/back_arrow"
@@ -134,7 +140,8 @@
             <TextView
                 android:gravity="center"
                 android:id="@+id/allBooks"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
                 android:layout_height="30dp"
                 android:background="@android:color/transparent"
                 android:text="All"
@@ -147,10 +154,11 @@
 
             <TextView
                 android:id="@+id/oldBooks"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
                 android:layout_height="30dp"
                 android:background="@android:color/transparent"
-                android:text="Old Testament"
+                android:text="OT"
                 android:textSize="@dimen/text_s"
                 android:gravity="center"
                 />
@@ -161,10 +169,11 @@
             <TextView
                 android:gravity="center"
                 android:id="@+id/newBooks"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
                 android:layout_height="30dp"
                 android:background="@android:color/transparent"
-                android:text="New Testament"
+                android:text="NT"
                 android:textSize="@dimen/text_s"
                 />
 
