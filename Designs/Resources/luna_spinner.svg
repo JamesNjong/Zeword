@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxbrokenarrow-left" fill-opacity="1" transform="matrix(0 -1 1 0 0 24)">
+    <path d="M641 96L641 96L665 96L665 120L641 120L641 96Z" id="vuesaxbrokenarrow-left" fill="none" stroke="none" />
+    <g id="vuesaxbrokenarrow-left">
+      <g id="arrow-left">
+        <path d="M11.1897 7.93994L8.56969 10.5599C7.79969 11.3299 7.79969 12.5899 8.56969 13.3599L15.0897 19.8799" id="Vector" fill="none" stroke="#C5CAE9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M15.0908 4.04004L14.0508 5.08004" id="Vector" fill="none" fill-rule="evenodd" stroke="#C5CAE9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 0L24 24L0 24L0 0L24 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

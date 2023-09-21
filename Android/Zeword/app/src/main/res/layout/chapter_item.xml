@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin=".1dp"
+    android:background="@color/primary_light">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="@dimen/_8dp"
+        android:text="03"
+        android:gravity="center"
+        style="@style/p"
+        android:textColor="@color/primary"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>

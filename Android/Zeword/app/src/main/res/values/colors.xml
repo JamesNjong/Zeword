@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#000000</color>
+    <color name="dark_primary">#2C2C2C</color>
+    <color name="accent">#2E39FF</color>
+    <color name="primary_light">#E5E5E5</color>
+
+    <color name="text_secondary">#A4A4A4</color>
+
+
+
+    <color name="hilight_1">#FFBFBF</color>
+    <color name="hilight_2">#C1D1FF</color>
+    <color name="hilight_3">#CEFFD8</color>
+    <color name="hilight_4">#FFEDCE</color>
+    <color name="hilight_5">#F1E2FF</color>
+
+
+
+</resources>

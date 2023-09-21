@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group">
+    <path d="M0 31C0 13.8792 13.8792 0 31 0C48.1208 0 62 13.8792 62 31C62 48.1208 48.1208 62 31 62C13.8792 62 0 48.1208 0 31Z" id="Oval" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    <g id="vuesaxbrokennote-2" fill-opacity="1" transform="translate(12.5 12.5)">
+      <path d="M37 0L37 0L37 37L0 37L0 0L37 0Z" id="vuesaxbrokennote-2" fill="none" stroke="none" />
+      <g id="vuesaxbrokennote-2">
+        <g id="note-2">
+          <path d="M19.5951 31.5581L17.1593 32.3597C11.0389 34.3331 7.81678 32.6835 5.82803 26.5631L3.85469 20.4735C1.88136 14.3531 3.51553 11.1156 9.63594 9.14223L12.0718 8.34057C12.7039 8.14015 13.3051 7.97057 13.8755 7.86265C13.413 8.80307 13.043 9.9439 12.7347 11.2543L11.2239 17.7139C9.71303 24.1581 11.7018 27.3339 18.1305 28.8601L20.7205 29.4768C21.6147 29.6926 22.4472 29.8314 23.218 29.8931C22.2622 30.5406 21.0597 31.0801 19.5951 31.5581Z" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M19.4876 13.1505L26.9647 15.0467" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M17.9761 19.1165L22.4469 20.2574" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M32.3136 7.86251C33.9786 9.71251 34.2715 12.3642 33.3928 16.095L31.8819 22.5392C30.5869 28.1046 28.0278 30.3554 23.2178 29.8929C22.4469 29.8313 21.6144 29.6925 20.7203 29.4767L18.1303 28.86C11.7015 27.3338 9.71278 24.1579 11.2236 17.7138L12.7344 11.2542C13.0428 9.94376 13.4128 8.80293 13.8753 7.86251C15.679 4.13168 18.7469 3.1296 23.8961 4.34751L26.4707 4.94876" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M37 0L37 37L0 37L0 0L37 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

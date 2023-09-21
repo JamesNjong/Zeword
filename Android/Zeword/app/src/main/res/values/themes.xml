@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Zeword" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        // Important to draw behind cutouts
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+    </style>
+
+    <style name="Theme.Zeword" parent="Base.Theme.Zeword">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/primary_light</item>
+
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/dark_primary</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">
+            @drawable/ic_launcher_foreground
+        </item>
+        <item name="windowSplashScreenAnimationDuration">4000</item>
+        <item name="postSplashScreenTheme">@style/Theme.Zeword</item>
+    </style>
+
+    <!--
+    Text styles : four main text styles : h1, h2, h3, P
+    -->
+
+
+    <style name="h1" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/b</item>
+    </style>
+
+    <style name="h2" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/b</item>
+    </style>
+
+    <style name="h3" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/b</item>
+    </style>
+
+    <style name="p" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/r</item>
+    </style>
+
+    <style name="small" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/l</item>
+    </style>
+
+
+    <!--
+    Button styles : primary, secondary and disabled
+    -->
+
+    <style name="ButtonLight" parent="Widget.AppCompat.Button">
+        <item name="textAllCaps">true</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/button_bg_light</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="fontFamily">@font/r</item>
+    </style>
+
+    <style name="ButtonAccent" parent="Widget.AppCompat.Button">
+        <item name="textAllCaps">true</item>
+        <item name="android:background">@drawable/button_bg_accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/r</item>
+    </style>
+
+    <style name="Theme.AppCompat.Starting.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppCompat.Starting" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Zeword.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Zeword.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Zeword.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
+
+
+
