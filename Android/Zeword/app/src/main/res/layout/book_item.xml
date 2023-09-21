@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:minWidth="130dp"
+    android:layout_marginTop="@dimen/fab_margin"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bbi_abbrev"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_bg_circle_div"
+        android:text="GN"
+        android:gravity="center"
+        android:textColor="@color/primary"
+        android:maxLines="1"
+        style="@style/small"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bbi_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genesis"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:fontFamily="@font/r"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

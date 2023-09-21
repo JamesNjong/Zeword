@@ -1,0 +1,518 @@
+{
+	"bibleBooks":[
+		{
+        	"Book": "Genesis",
+        	"ChapterCount": 50,
+        	"Abrev":"GN",
+        	"Testament":"Old", 
+        	"Group": "The Pentateuch"
+    	},
+    	{
+        	"Book": "Exodus",
+        	"ChapterCount": 40,
+        	"Abrev":"EX",
+        	"Testament":"Old", 
+        	"Group": "The Pentateuch"
+    	},
+    	{
+        	"Book": "Leviticus",
+        	"ChapterCount": 27,
+        	"Abrev":"LV",
+        	"Testament":"Old", 
+        	"Group": "The Pentateuch"
+    	},
+    	{
+        	"Book": "Numbers",
+        	"ChapterCount": 36,
+        	"Abrev":"NU",
+        	"Testament":"Old", 
+        	"Group": "The Pentateuch"
+    	},
+    	{
+        	"Book": "Deuteronomy",
+        	"ChapterCount": 34,
+        	"Abrev":"DT",
+        	"Testament":"Old", 
+        	"Group": "The Pentateuch"
+    	},
+    	{
+        	"Book": "Joshua",
+        	"ChapterCount": 24,
+        	"Abrev":"JOS",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "Judges",
+        	"ChapterCount": 21,
+        	"Abrev":"JGS",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "Ruth",
+        	"ChapterCount": 4,
+        	"Abrev":"RU",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "1 Samuel",
+        	"ChapterCount": 31,
+        	"Abrev":"1 SAM",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "2 Samuel",
+        	"ChapterCount": 24,
+        	"Abrev":"2 SAM",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "1 Kings",
+        	"ChapterCount": 22,
+        	"Abrev":"1 KGS",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "2 Kings",
+        	"ChapterCount": 25,
+        	"Abrev":"1 KGS",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "1 Chronicles",
+        	"ChapterCount": 29,
+        	"Abrev":"1 CHR",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "2 Chronicles",
+        	"ChapterCount": 36,
+        	"Abrev":"2 CHR",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "Ezra",
+        	"ChapterCount": 10,
+        	"Abrev":"EZR",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "Nehemiah",
+        	"ChapterCount": 13,
+        	"Abrev":"NE",
+        	"Testament":"Old", 
+        	"Group": "Historical Books"
+    	},
+    	{
+        	"Book": "Tobit",
+        	"ChapterCount": 14,
+        	"Abrev":"TB",
+        	"Testament":"Old", 
+        	"Group": "Biblical Novellas"
+    	},
+    	{
+        	"Book": "Judith",
+        	"ChapterCount": 16,
+        	"Abrev":"JDT",
+        	"Testament":"Old", 
+        	"Group": "Biblical Novellas"
+    	},
+    	{
+        	"Book": "Esther",
+        	"ChapterCount": 15,
+        	"Abrev":"ES",
+        	"Testament":"Old", 
+        	"Group": "Biblical Novellas"
+    	},
+    	{
+        	"Book": "Job",
+        	"ChapterCount": 42,
+        	"Abrev":"JB",
+        	"Testament":"Old", 
+        	"Group": "Wisdom Books"
+    	},
+    	{
+        	"Book": "Psalms",
+        	"ChapterCount": 150,
+        	"Abrev":"PS",
+        	"Testament":"Old", 
+        	"Group": "Wisdom Books"
+    	}, 
+    	{
+        	"Book": "Proverbs",
+        	"ChapterCount": 31,
+        	"Abrev":"PRV",
+        	"Testament":"Old", 
+        	"Group": "Wisdom Books"
+    	},
+    	{
+        	"Book": "Ecclesiates",
+        	"ChapterCount": 12,
+        	"Abrev":"EC",
+        	"Testament":"Old", 
+        	"Group": "Wisdom Books"
+    	},
+    	{
+        	"Book": "Song of Songs",
+        	"ChapterCount": 8,
+        	"Abrev":"SO",
+        	"Testament":"Old", 
+        	"Group": "Wisdom Books"
+    	},
+    	{
+        	"Book": "Wisdom",
+        	"ChapterCount": 19,
+        	"Abrev":"WS",
+        	"Testament":"Old", 
+        	"Group": "Wisdom Books"
+    	},
+    	{
+        	"Book": "Sirach",
+        	"ChapterCount": 51,
+        	"Abrev":"SR",
+        	"Testament":"Old", 
+        	"Group": "Wisdom Books"
+    	},
+    	{
+        	"Book": "Isaiah",
+        	"ChapterCount": 66,
+        	"Abrev":"IS",
+        	"Testament":"Old", 
+        	"Group": "Major Prophets"
+    	},
+    	{
+        	"Book": "Jeremiah",
+        	"ChapterCount": 52,
+        	"Abrev":"JER",
+        	"Testament":"Old", 
+        	"Group": "Major Prophets"
+    	},
+    	{
+        	"Book": "Lamentations",
+        	"ChapterCount": 5,
+        	"Abrev":"LAM",
+        	"Testament":"Old", 
+        	"Group": "Major Prophets"
+    	},
+    	{
+        	"Book": "Baruch",
+        	"ChapterCount": 6,
+        	"Abrev":"BA",
+        	"Testament":"Old", 
+        	"Group": "Major Prophets"
+    	},
+    	{
+        	"Book": "Ezekiel",
+        	"ChapterCount": 48,
+        	"Abrev":"EZ",
+        	"Testament":"Old", 
+        	"Group": "Major Prophets"
+    	},
+    	{
+        	"Book": "Daniel",
+        	"ChapterCount": 14,
+        	"Abrev":"DN",
+        	"Testament":"Old", 
+        	"Group": "Major Prophets"
+    	},
+    	{
+        	"Book": "Hosea",
+        	"ChapterCount": 14,
+        	"Abrev":"HOS",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Joel",
+        	"ChapterCount": 3,
+        	"Abrev":"JL",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Amos",
+        	"ChapterCount": 9,
+        	"Abrev":"AM",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Obadiah",
+        	"ChapterCount": 1,
+        	"Abrev":"OB",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Jonah",
+        	"ChapterCount": 4,
+        	"Abrev":"JON",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Micah",
+        	"ChapterCount": 7,
+        	"Abrev":"MI",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Nahum",
+        	"ChapterCount": 3,
+        	"Abrev":"NA",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+
+		{
+        	"Book": "Habakkuk",
+        	"ChapterCount": 3,
+        	"Abrev":"HB",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Zephaniah",
+        	"ChapterCount": 3,
+        	"Abrev":"ZEP",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Haggai",
+        	"ChapterCount": 2,
+        	"Abrev":"HG",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Zachariah",
+        	"ChapterCount": 14,
+        	"Abrev":"ZAC",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "Malachi",
+        	"ChapterCount": 4,
+        	"Abrev":"MAL",
+        	"Testament":"Old", 
+        	"Group": "Minor Prophets"
+    	},
+    	{
+        	"Book": "1 Maccabees",
+        	"ChapterCount": 16,
+        	"Abrev":"1 MAC",
+        	"Testament":"Old", 
+        	"Group": "Biblical Novellas"
+    	},
+    	{
+        	"Book": "2 Maccabees",
+        	"ChapterCount": 35,
+        	"Abrev":"2 MAC",
+        	"Testament":"Old", 
+        	"Group": "Biblical Novellas"
+    	},
+
+    	{
+        	"Book": "Matthew",
+        	"ChapterCount": 28,
+        	"Abrev":"MT",
+        	"Testament":"New", 
+        	"Group": "The Gospels"
+    	},
+    	{
+        	"Book": "Mark",
+        	"ChapterCount": 16,
+        	"Abrev":"MK",
+        	"Testament":"New", 
+        	"Group": "The Gospels"
+    	},
+    	{
+        	"Book": "Luke",
+        	"ChapterCount": 24,
+        	"Abrev":"LK",
+        	"Testament":"New", 
+        	"Group": "The Gospels"
+    	},
+    	{
+        	"Book": "John",
+        	"ChapterCount": 21,
+        	"Abrev":"JN",
+        	"Testament":"New", 
+        	"Group": "The Gospels"
+    	},
+    	{
+        	"Book": "Acts",
+        	"ChapterCount": 28,
+        	"Abrev":"ACTS",
+        	"Testament":"New", 
+        	"Group": "The Acts of the Apostles"
+    	},
+    	{
+        	"Book": "Romans",
+        	"ChapterCount": 16,
+        	"Abrev":"ROM",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "1 Corinthians",
+        	"ChapterCount": 16,
+        	"Abrev":"1 COR",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "2 Corinthians",
+        	"ChapterCount": 13,
+        	"Abrev":"2 COR",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "Galatians",
+        	"ChapterCount": 6,
+        	"Abrev":"GAL",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "Ephesians",
+        	"ChapterCount": 6,
+        	"Abrev":"EPH",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "Philippians",
+        	"ChapterCount": 4,
+        	"Abrev":"PHIL",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "Colossians",
+        	"ChapterCount": 4,
+        	"Abrev":"COL",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "1 Thessalonians",
+        	"ChapterCount": 5,
+        	"Abrev":"1 THES",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "2 Thessalonians",
+        	"ChapterCount": 3,
+        	"Abrev":"2 THES",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "1 Timothy",
+        	"ChapterCount": 6,
+        	"Abrev":"1 TM",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "1 Timothy",
+        	"ChapterCount": 4,
+        	"Abrev":"2 TM",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "Titus",
+        	"ChapterCount": 3,
+        	"Abrev":"TI",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "Philemon",
+        	"ChapterCount": 1,
+        	"Abrev":"PHM",
+        	"Testament":"New", 
+        	"Group": "Pauline Epistles"
+    	},
+    	{
+        	"Book": "Hebrews",
+        	"ChapterCount": 13,
+        	"Abrev":"HB",
+        	"Testament":"New", 
+        	"Group": "Hebrews & Catholic Letters"
+    	},
+    	{
+        	"Book": "James",
+        	"ChapterCount": 5,
+        	"Abrev":"JAS",
+        	"Testament":"New", 
+        	"Group": "Hebrews & Catholic Letters"
+    	},
+    	{
+        	"Book": "1 Peter",
+        	"ChapterCount": 5,
+        	"Abrev":"1 PT",
+        	"Testament":"New", 
+        	"Group": "Hebrews & Catholic Letters"
+    	},
+    	{
+        	"Book": "2 Peter",
+        	"ChapterCount": 3,
+        	"Abrev":"2 PT",
+        	"Testament":"New", 
+        	"Group": "Hebrews & Catholic Letters"
+    	},
+    	{
+        	"Book": "1 John",
+        	"ChapterCount": 5,
+        	"Abrev":"1 JN",
+        	"Testament":"New", 
+        	"Group": "Hebrews & Catholic Letters"
+    	},
+    	{
+        	"Book": "2 John",
+        	"ChapterCount": 1,
+        	"Abrev":"2 JN",
+        	"Testament":"New", 
+        	"Group": "Hebrews & Catholic Letters"
+    	},
+    	{
+        	"Book": "3 John",
+        	"ChapterCount": 1,
+        	"Abrev":"3 JN",
+        	"Testament":"New", 
+        	"Group": "Hebrews & Catholic Letters"
+    	},
+    	{
+        	"Book": "Jude",
+        	"ChapterCount": 1,
+        	"Abrev":"JU",
+        	"Testament":"New", 
+        	"Group": "Hebrews & Catholic Letters"
+    	},
+    	{
+        	"Book": "Revelations",
+        	"ChapterCount": 22,
+        	"Abrev":"REV",
+        	"Testament":"New", 
+        	"Group": "The Book of Revelation"
+    	}
+
+	]
+}
